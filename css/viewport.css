@@ -1,0 +1,218 @@
+@media (orientation: portrait){
+
+	@media (max-width: 767px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -40vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 766px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: 0 top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 767px) and (min-height: 560px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -55vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 767px) and (min-height: 650px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -64vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 767px) and (min-height: 800px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -87vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 768px) and (min-height: 1000px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -40vw top;
+			height: calc(100vh - 58px); /* used to be: height: calc(100vh - 67px); */
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 58px); padding-top: 0; padding-bottom: 0; background-size: cover;'; /* used to be: height: calc(100vh - 67px); */
+		}
+
+	}
+
+	@media (max-width: 768px) and (min-height: 1200px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -60vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+	
+}
+
+@media (orientation: landscape){
+	
+	
+	@media (max-width: 991px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: center top;
+			height: calc(100vh - 58px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 58px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 767px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: center top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 766px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: 0 top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 767px) and (min-height: 560px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -55vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 767px) and (min-height: 650px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -60vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 767px) and (min-height: 800px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -80vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+
+	@media (max-width: 768px) and (min-height: 1000px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -40vw top;
+			height: calc(100vh - 58px); /* used to be: height: calc(100vh - 67px); */
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 58px); padding-top: 0; padding-bottom: 0; background-size: cover;'; /* used to be: height: calc(100vh - 67px); */
+		}
+
+	}
+
+	@media (max-width: 768px) and (min-height: 1200px){
+
+		header {
+			background: url(../img/header-bg_mobile.jpg) no-repeat;
+			background-size: cover;
+			background-position: -60vw top;
+			height: calc(100vh - 67px);
+			padding-top: 0;
+			padding-bottom: 0;
+			content: 'viewport-units-buggyfill; height: calc(100vh - 67px); padding-top: 0; padding-bottom: 0; background-size: cover;';
+		}
+
+	}
+	
+}

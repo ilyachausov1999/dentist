@@ -1,0 +1,71 @@
+	<!-- BOTTOM-SCRIPTS -->
+
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	
+	<!-- Sly  -->
+	<script src="js/sly_plugins.js"></script>
+	<script src="js/sly.min.js"></script>
+	<script src="js/sly_horizontal.js"></script>
+	
+	<!-- Sweet-Alert  -->
+	<script src="plugins/sweet-alert2/sweetalert2.min.js"></script>
+	<script src="veltrix/pages/sweet-alert.init.js"></script>
+	
+	<!-- Parsley js -->
+	<script src="plugins/parsleyjs/parsley.min.js"></script>
+	<script src="plugins/parsleyjs/parsley_ru.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('#msg_write_form').parsley();
+			$('#call_request_form').parsley();
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#msg_write_form').parsley().on('form:success', function() {
+				event.preventDefault();
+					var form = $('#msg_write_form');
+					$.ajax({
+						type: 'POST',
+						url: 'https://www.drkarasev.com/include/sendmail.php',
+						data: $(form).serialize(),
+						dataType:'JSON',
+						success: function(response){
+							$('#msg-write-modal').modal('hide');
+							Swal.fire(response.title, response.message, response.status);
+						},
+						error: function(){
+							$('#msg-write-modal').modal('hide');
+							Swal.fire("Произошла ошибка", "Пожалуйста, свяжитесь с администратором", "error");
+						}
+					});
+			});
+			$('#call_request_form').parsley().on('form:success', function() {
+				event.preventDefault();
+					var form = $('#call_request_form');
+					$.ajax({
+						type: 'POST',
+						url: 'https://www.drkarasev.com/include/sendmail.php',
+						data: $(form).serialize(),
+						dataType:'JSON',
+						success: function(response){
+							$('#call-request-modal').modal('hide');
+							Swal.fire(response.title, response.message, response.status);
+						},
+						error: function(){
+							$('#call-request-modal').modal('hide');
+							Swal.fire("Произошла ошибка", "Пожалуйста, свяжитесь с администратором", "error");
+						}
+					});
+			});
+		});
+	</script>
+	
+	<!-- /BOTTOM-SCRIPTS -->
